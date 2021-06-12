@@ -1,0 +1,10 @@
+name: dart_wasm
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  wasm: 
+    git:
+      url: https://github.com/dart-lang/wasm.git
+      ref: main
+
